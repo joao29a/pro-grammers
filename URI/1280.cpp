@@ -47,7 +47,7 @@ long long int caralha5(long long int n, long long int m){
 	long long int x = 1;
 	for(i=0; i<=n; i++) {
 		x = caralha5(x, m-1);
-		if(x < 0) break; else printf("%lld\n", x);
+		//if(x < 0) break; else printf("%lld\n", x);
 	}
 	return x;
 /*
